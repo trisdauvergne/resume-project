@@ -7,19 +7,35 @@
 }
 
 .ui-menu-color-home {
-    background-color: #fbf579;
+    background-color: #000000;
 }
 
 .ui-menu-color-resume {
-    background-color: #005995;
+    background-color: #000000;
 }
 
 .ui-menu-color-contact {
-    background-color:#fa625f;
+    background-color: #000000;
 }
 
 .ui-menu-color-download {
-    background-color: #600473
+    background-color: #000000;
+}
+
+/* Special paddings/margins/text */
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #fff;
 }
 
 /* Headings */
@@ -107,4 +123,40 @@ header {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
+    color: #fff
+}
+
+/* Hover.CSS */
+
+#home .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background: #beef00;
+    height: 120px; 
+    transition-duration: 2s;
+}
+
+#resume .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background: #ff0028;
+    height: 120px; 
+    transition-duration: 2s;
+}
+
+#contact, .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background: #657a00;
+    height: 120px; 
+    transition-duration: 2s;
+}
+
+#download, .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background: #0019ea;
+    height: 120px; 
+    transition-duration: 2s;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 120px;
+    margin: 0;
 }
