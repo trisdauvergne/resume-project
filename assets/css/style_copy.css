@@ -2,12 +2,8 @@
 
 /* Colours */
 
-.bg-color-name-title {
+.bg-color-name-title{
     background-color: #000000;
-}
-
-.bg-color-three-reasons {
-    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -52,24 +48,6 @@ h5, .uppercase, .general-sub {
     font-family: "archivo black", sans serif;
     font-weight: 100;
 }
-
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading {
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 200;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
 /* Headings */
 
 header {
@@ -165,6 +143,30 @@ header {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
+/* #home .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background: #beef00;
+    height: 120px; 
+    transition-duration: .35s;
+}
+
+#resume .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background: #ff0028;
+    height: 120px; 
+    transition: all 0.35s ease-in-out;
+}
+
+#contact, .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background: #657a00;
+    height: 120px; 
+    transition-duration: 2s;
+}
+
+#download, .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background: #0019ea;
+    height: 120px; 
+    transition-duration: 2s;
+} */
 
 /* Footer */
 
